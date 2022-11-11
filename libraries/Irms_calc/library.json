@@ -1,0 +1,33 @@
+{
+  "name": "Irms calculator",
+  "keywords": "ACS712, power consumption, Irms, Vpp, Volts Peak to Peak, Vpeak, Volts peak",
+  "description": "Irms calculation library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Warlib1975/Irms_calc.git"
+  },
+  
+  "version": "1.0",
+  
+  "exclude": [
+    "*.png",
+    "*.zip"
+  ],
+   
+  "authors": [
+        {
+            "email": null, 
+            "url": "https://github.com/Warlib1975", 
+            "maintainer": true, 
+            "name": "Andrey Fedorov"
+        }
+   ], 
+
+  "frameworks": "arduino",
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266" 
+    ], 
+}
